@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateDesigner", "ScannerTemplate\TemplateDesigner.csproj", "{C1D4C173-EFC0-4E74-B4AC-FB6ACD01BBF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OmrMarkEngine.Core", "MarkEngine.Core\OmrMarkEngine.Core.csproj", "{8BD8D657-F0FA-4D24-99B7-B7669E6063C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OmrScannerApplication", "OmrScannerApplication\OmrScannerApplication.csproj", "{A32C8B82-83B2-4B84-BA12-3B3BC04C44A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OmrConsole", "OmrConsole\OmrConsole.csproj", "{A3332E0F-55D9-49AF-9E86-3F7145B4841C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BDBE28E6-210D-4D84-B18E-933D84D08AF7}"
+	ProjectSection(SolutionItems) = preProject
+		Solution Items\AForge.dll = Solution Items\AForge.dll
+		Solution Items\AForge.Imaging.dll = Solution Items\AForge.Imaging.dll
+		Solution Items\AForge.Imaging.Formats.dll = Solution Items\AForge.Imaging.Formats.dll
+		Solution Items\AForge.Math.dll = Solution Items\AForge.Math.dll
+		Solution Items\designer.ico = Solution Items\designer.ico
+		Solution Items\FyfeSoftware.Sketchy.Core.dll = Solution Items\FyfeSoftware.Sketchy.Core.dll
+		Solution Items\FyfeSoftware.Sketchy.Core.pdb = Solution Items\FyfeSoftware.Sketchy.Core.pdb
+		Solution Items\FyfeSoftware.Sketchy.Design.dll = Solution Items\FyfeSoftware.Sketchy.Design.dll
+		Solution Items\FyfeSoftware.Sketchy.WinForms.dll = Solution Items\FyfeSoftware.Sketchy.WinForms.dll
+		Solution Items\Interop.WIA.dll = Solution Items\Interop.WIA.dll
+		Solution Items\MohawkCollege.Util.Console.Parameters.dll = Solution Items\MohawkCollege.Util.Console.Parameters.dll
+		Solution Items\scanner.ico = Solution Items\scanner.ico
+		Solution Items\zxing.dll = Solution Items\zxing.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1D4C173-EFC0-4E74-B4AC-FB6ACD01BBF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1D4C173-EFC0-4E74-B4AC-FB6ACD01BBF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1D4C173-EFC0-4E74-B4AC-FB6ACD01BBF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1D4C173-EFC0-4E74-B4AC-FB6ACD01BBF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BD8D657-F0FA-4D24-99B7-B7669E6063C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BD8D657-F0FA-4D24-99B7-B7669E6063C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BD8D657-F0FA-4D24-99B7-B7669E6063C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BD8D657-F0FA-4D24-99B7-B7669E6063C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A32C8B82-83B2-4B84-BA12-3B3BC04C44A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A32C8B82-83B2-4B84-BA12-3B3BC04C44A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A32C8B82-83B2-4B84-BA12-3B3BC04C44A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A32C8B82-83B2-4B84-BA12-3B3BC04C44A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3332E0F-55D9-49AF-9E86-3F7145B4841C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3332E0F-55D9-49AF-9E86-3F7145B4841C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3332E0F-55D9-49AF-9E86-3F7145B4841C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3332E0F-55D9-49AF-9E86-3F7145B4841C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
